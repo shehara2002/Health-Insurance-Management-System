@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="signup.css">
+        <title>lifecare Insurance</title>
+    </head>
+
+    <body>
+        <body>
+            <div class="header-container">
+                <header>
+                    <img src="images/img6.jfif" alt="site logo" class="logo">
+                    <ul class="navbar">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="home.html">About us</a></li>
+                        <li><a href="home.html">Plans</a></li>
+                        <li><a href="home.html">Contact us</a></li>
+                    </ul>
+                    <div class="profile" style="display: flex; justify-content: center; flex-wrap: no-wrap">
+                        <img src="images/admin.png" alt="admin dp" class="admin-dp">
+                        <div>
+                            <p style="margin: 0;">Hey, phpname</p>
+                            <!--<p style="margin: 0;">Administrator</p> -->
+                            <a href="sign out" class="sign-out">sign out</a>
+                        </div>
+                    </div>
+                </header>
+            </div>
+    
+    <br><br>
+
+    <div class="fpage">
+    <form class="signup-form" onsubmit="return validateForm()" >
+        <h1>Sign Up</h1>
+        <input type="text" name="firstname" placeholder="First Name" required> <br><br>
+        <input type="text" name="lastname" placeholder="Last Name" required> <br><br>
+        <input type="text" name="username" placeholder="Usernmame" required><br><br>
+         <input type="email" placeholder="abc@gmail.com" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br><br>
+         <input type="password"name="password" placeholder="Enter password" id="pwd" required><br><br>
+         <input type="password"name="password" placeholder="Confirm password" id="cpwd" required><br><br>
+
+         <div class="checkbox">
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I accept the <a href="#">Terms & Condition</a></label>
+         </div>
+
+         <button type="submit" id="submitbtn" value="submit">Sign Up for Lifecare</button>
+
+         <p>Already have an account? <a href="#" >Login here</a></p>
+     </form>
+     </div>
+     
+     
+    <footer>
+        <div class="footer-container">
+            <div class="site-details">
+                <div class="description">
+                    <p><b>LifeCare</b></p>
+                    <p style="font-size: 14px;">dvfvf fbgfnh gnhm bgfdbfdbfb dvfvf fbgfnh gnhm bgfdbfdbfb dvfvf fbgfnh bgfdbfdbfb</p>
+                </div>
+                <div class="plans-company">
+                    <div>
+                        <p><b>Plans</b></p>
+                        <ul>
+                            <li><a href="">Adult plan</a></li>
+                            <li><a href="">Emergency plan</a></li>
+                            <li><a href="">Complete plan</a></li>
+                            <li><a href="">Family plan</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p><b>Company</b></p>
+                        <ul>
+                            <li><a href="">Privacy policy</a></li>
+                            <li><a href="">Contact us</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Terms and conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social">
+                    <p><b>Social</b></p>
+                    <div>
+                        <a href=""><img src="" alt="facebook"></a>
+                        <a href=""><img src="" alt="X"></a>
+                        <a href=""><img src="" alt="linked in"></a>
+                        <a href=""><img src="" alt="whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rights">
+                <p>LifeCare 2024 © All rights resserved</p>
+            </div>
+        </div>
+    </footer>
+     
+    <script src="sign up.js"></script>
+
+    
+     </body>
+    </html>

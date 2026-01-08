@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 15px;
+}
+
+.full-page{
+    display: flex;
+    max-width: 900px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.page-left{
+    width: 50%;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.right-panel{
+    width: 50%;
+    padding: 35px;
+    background-color: #e0f0ff;
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #0078d4;
+}
+
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+label{
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="email"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remender-forgot{
+    display:flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.forgot-password{
+    text-align: right;
+    color: #0078d4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.forgot-password:hover{
+    text-decoration: underline;
+}
+
+.login-button{
+    width: 100%;
+    padding: 12px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-button:hover{
+    background-color: #005ba1;
+}
+
+.or{
+    text-align: center;
+    margin: 15px;
+    color: #242222;
+}
+
+.google-button{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-button:hover{
+    background-color:#ccc;
+}
+
+.google-button img{
+    width: 15px;
+    height: auto;
+}
+
+.signup{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.signup a{
+    color: #0078d4;
+    text-decoration: none;
+}
+
+.signup a:hover{
+    text-decoration: underline;
+}
