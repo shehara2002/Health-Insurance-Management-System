@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    background-color:rgb(247, 251, 254);
+    align-items: center; 
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+h4, h5{
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+.header-container{
+    color: rgb(98, 96, 96);
+    background-color: aliceblue;
+    
+}
+header{
+    display: flex;
+    max-width: 1100px; 
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    height: 100px;
+    font-family: 'poppins';
+    font-size: 12px;
+    
+}
+.logo{
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(98, 96, 96);
+}
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+.profile{
+    align-items: center;
+    gap: 15px;
+}
+.admin-dp{
+    max-height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.profile div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;    
+    height: 50px;
+    font-size: 11px;
+}
+.sign-out{
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+}
+.sign-out:hover{
+    text-decoration: underline;
+}
+
+/* Main */
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+}
+
+/* side bar*/
+
+.sidebar{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    gap: 45px;
+    justify-content: space-between;
+}
+.sidebar .profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+.sidebar .profile p{
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+}
+.sidebar .profile img{
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+}
+.sidebar .button-area{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar .button-area .sidebar-btn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sidebar .sign-out{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* Main bar */
+
+.main-bar{
+    width: 80%;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 35px;
+    
+}
+.tab2, .tab3{
+    display: none;
+}
+.tab1 .menubar{
+    display: flex;
+}
+.personal-policy{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 20px;
+}
+.personal-policy .info-tab{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info-tab .details-container{
+    /* display: grid;
+    grid-template-columns: auto auto auto; */
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.details-container .detail{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.recent-requests{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.recent-requests .inner-tab{
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.make-request-btn{
+    align-self:flex-end
+}
+.tab2{
+    display: none;
+}
+.tab2 .details-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    gap: 25px;
+} 
+.details-container .grid1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.grid1 .detail{
+    width: 30vw;
+    min-width: 240px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.tab3{
+    
+}
+.claims{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.claims .claim-container{
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.tab3 a{
+    align-self: flex-end;
+}
+.tab4{
+    display: none;
+}

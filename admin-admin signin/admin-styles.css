@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    background-color:rgb(247, 251, 254)
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+/*Header*/
+
+.header-container{
+    color: rgb(98, 96, 96);
+    background-color: aliceblue;
+    
+}
+header{
+    display: flex;
+    max-width: 1100px; 
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    height: 100px;
+    font-family: 'poppins';
+    font-size: 12px;
+    
+}
+.logo{
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(98, 96, 96);
+}
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+.profile{
+    align-items: center;
+    gap: 15px;
+}
+.admin-dp{
+    max-height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.profile div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;    
+    height: 50px;
+    font-size: 11px;
+}
+.sign-out{
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+}
+.sign-out:hover{
+    text-decoration: underline;
+}
+
+/*overview tab*/
+
+.tab{
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    width: 90%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    min-height: 230px;
+    box-shadow: 0px 0px 9px 0px rgb(212, 210, 210);
+}
+.overview{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    font-size: 15px;
+    justify-content: start;
+}
+.color-teal{
+    color: teal;
+}
+.overview .item-container{
+    display: flex;
+    padding: 0px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 15px;
+}
+.item-container .item{
+    box-shadow: 0px 0px 9px 0px rgb(212, 210, 210);
+    border-radius: 10px;
+    padding: 15px 1px 10px 10px;
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.overview .color-teal{
+    align-self: center;
+}
+.item p:first-child{
+    color: rgb(75, 76, 77);
+}
+.color-grey{
+    color: rgb(75, 76, 77)
+}
+.tab1{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-height: 300px;
+}
+.policy-claim-container{
+    display: flex;
+    width: 90%;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    padding: 0px;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 9px 0px rgb(212, 210, 210);
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px;
+}
+.chart-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptab{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 50%;
+    min-height: 400px;
+}
+.ptab p:first-child{
+    font-weight: bold;
+}
+.ptab-first-child{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.ptab-tab{
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 180px;
+    min-height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.employees{
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    gap: 15px;
+}
+.employee{
+    display: flex;
+    justify-content: space-between;
+}
+.employee .descrption{
+    font-size: 10px;
+}
+.add-employee{
+    max-width: 100px;
+    align-self: flex-end;
+}
+.claim-requests{
+    padding: 20px;
+    gap: 20px;
+}
+table{
+    margin-top: 20px;
+    min-width: 100%;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+}
+table td, th{
+    padding: 8px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.footer-container{
+    color: rgb(31, 31, 30);
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    gap: 30px;
+}
+.site-details{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    min-height: 80%;
+}
+.descrption{
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.plans-company{
+    display: flex;
+    min-width: 30%;
+    gap: 25px;
+}
+.plans-company div{
+    display: flex;
+    flex-direction: column;
+}
+.plans-company li{
+    list-style-type: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.plans-company li a{
+    color: rgb(31, 31, 30);
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.plans-company li a:hover{
+    color: rgb(0, 0, 0);
+}
+.plans-company ul{
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+}
+.social{
+    min-width: 30%;
+}
+.social div{
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.social a{
+    text-decoration: none;
+}
+.rights{
+    min-height: 20%;
+    position: relative;
+    margin-top: 30px;
+}
+.rights p{
+    font-size: 12px;
+    font-weight: bold;
+}

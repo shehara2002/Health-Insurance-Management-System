@@ -1,0 +1,95 @@
+color codes:
+
+teal = #008080
+white
+#446a91 - dark blue
+#93cbe2 -
+
+fonts:
+poppins
+roboto
+
+
+
+
+database:
+
+user_login:
+all of them
+
+policy table:
+number of active policies - no
+number of every type policies - chart - no
+id
+type
+deadline
+status
+
+
+claims:                       should be added from request form
+total number - no
+processed number - no
+monthly claims - no
+number of every type claim - chart - no
+claim cost
+processing time
+total accepted claims
+claim id
+user id
+description
+status
+heading
+datetime
+document_path
+
+
+payment:
+monthly payment - revenue - no
+total payment - no
+id
+description
+amount
+week
+status
+month
+datetime
+
+
+reimbursement:
+total amount - no
+monthly amount - no
+all of them
+
+
+
+expense: 
+number 
+name
+amount
+month
+type
+all admin amount monthly - no
+all other amount monthly - no
+
+
+notification:
+id
+heading
+description
+policyholder id
+
+
+policy_policyholder:
+policy id
+policyholder id
+datetime
+
+
+inquiry:
+id
+first name
+last name
+email
+policyholder id
+
+

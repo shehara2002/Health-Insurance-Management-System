@@ -1,0 +1,354 @@
+*{
+    font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    scroll-padding-top:4 ; 
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+
+    color: black;
+}
+body{
+    margin: 0;
+    background-color:#E2EAF4
+    
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-container{
+    color: rgb(98, 96, 96);
+    background-color:#E2EAF4
+    
+}
+header{
+    display: flex;
+    max-width:1520px ;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    height: 100px;
+    font-family: 'poppins';
+    font-size: 12px;
+    
+}
+.logo{
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(98, 96, 96);
+}
+.navbar a:hover{
+    background-color: black;
+    color: #E2EAF4;
+}
+
+.profile{
+    align-items: center;
+    gap: 15px;
+}
+.admin-dp{
+    max-height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.profile div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;    
+    height: 50px;
+    font-size: 11px;
+}
+.sign-out{
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+}
+.sign-out:hover{
+    text-decoration: underline;
+}
+header{
+    
+    width:100%;
+    background:#E2EAF4;
+    display: flex;
+    align-items: center;
+    padding: 18px 100px;
+    text-align: center;
+  
+}
+
+.container{
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+
+}
+.img-container{
+
+    position: relative;
+}
+.img-container img{
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-container-text{
+    position: absolute;
+    top:30% ;
+    color:#E2EAF4;
+    padding: 10px;
+    font-size: 120px;
+    
+}
+@keyframes slideUp {
+    0% { opacity: 0; transform: translateY(100px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.img-container-text {
+    animation: slideUp 2s ease-in-out;
+}
+
+.container{
+    width: non;
+    margin: 0 outo;
+    background-color:#E2EAF4;
+}
+.content{
+    width:100% ;
+    transform: translateY(5%);
+    text-align: center;
+}
+
+.firstdiv{
+    background-color: #99c4f5;
+    padding: 2em;
+    border-radius: 20px;
+    width: 500px;
+    height: 800px;
+    margin-left: 10px;  
+    display: grid;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+@keyframes bounceIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    60% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); }
+}
+.firstdiv {
+    animation: bounceIn 1.5s ease-in-out;
+}
+
+.firstdiv h2{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+.firstdiv p{
+    text-align: justify;
+    font-size: 25px;
+    
+}
+
+
+.seconddiv{
+    background-color:  #f7f7f7;
+    padding: 2em;
+    border-radius: 20px;
+    width: 400px;
+    height: 800px;
+    display: grid;
+    margin-left:20% ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+.seconddiv {
+    animation: bounceIn 1.5s ease-in-out;
+    animation-delay: 0.5s;
+}
+
+
+.seconddiv h2{
+    text-align: center;
+    text-decoration: underline;
+}
+.seconddiv p{
+    text-align: justify;
+    font-size: 25px;
+}
+.side-image {
+    position: fixed;
+    right: 20px; 
+    top: 40%; 
+    width: 40%;
+    height: 50%;
+    z-index: 999;
+}
+.side1-image {
+    position: fixed;
+    top: -5%;
+    width: 50%;
+    height: 45%;
+    z-index: 999;
+    margin-right: -10%;
+}
+
+.btn{
+    width:200px;
+    height:50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 80%;
+    margin-right: 50px;
+    background-color:  rgb(45, 178, 250);
+    border-radius: 25px;
+    border-width: 0;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+    cursor:pointer; 
+    display:inline-block; 
+    text-align: center;
+    margin-top: 30px; 
+    
+}
+.slogan{
+    background-color: #0f54a9;
+    padding: 50px;
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;  
+    display: flow-root;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 60%;
+    margin-top: -50%;
+    padding-bottom: 100px;
+    padding-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke:o.5vw #f7f7f7;
+    position: relative;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+    
+}
+@keyframes slideUp {
+    0% { opacity: 0; transform: translateY(100px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.slogan{
+    animation: slideUp 2s ease-in-out;
+}
+
+
+.btn:hover{
+    background-color: rgb(63, 81, 181);
+    color:white;
+}
+footer{
+    width: 100%;
+    background-color: #90CAF9;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.footer-container{
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    gap: 30px;
+}
+.site-details{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    min-height: 80%;
+}
+.descrption{
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.plans-company{
+    display: flex;
+    min-width: 10%;
+    gap: 25px;
+}
+.plans-company div{
+    display: flex;
+    flex-direction: column;
+}
+.plans-company li{
+    list-style-type: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.plans-company li a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.plans-company li a:hover{
+    color: rgb(0, 0, 0);
+}
+.plans-company ul{
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+}
+.social{
+    min-width: 10%;
+}
+.social div{
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.social a{
+    text-decoration: none;
+}
+.rights{
+    min-height: 20%;
+    position: relative;
+    margin-top: 30px;
+}
+.rights p{
+    font-size: 12px;
+    font-weight: bold;
+}
