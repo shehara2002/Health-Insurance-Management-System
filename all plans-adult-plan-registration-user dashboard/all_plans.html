@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Insurance plans
+        </title>
+        <link rel="stylesheet" href="all_plans_style.css">
+    </head>
+
+    <div class="header-container">
+        <header>
+            <img src="../image/logo.jpg" alt="site logo" class="logo">
+            <ul class="navbar">
+                <li><a href="http://localhost/hims/sign in-sign up-home-privacy policy/home/home.php">Home</a></li>
+                <li><a href="http://localhost/hims/about us emergency plan claim request/about index.html">About us</a></li>
+                <li><a href="http://localhost/hims/all plans-adult-plan-registration-user dashboard/all_plans.html">Plans</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div class="profile" style="display: flex; justify-content: center; flex-wrap: no-wrap">
+                <img src="../image/admin.png" alt="admin dp" class="admin-dp">
+                <div>
+                    <p style="margin: 0;">Hey, phpname</p>
+                    <!--<p style="margin: 0;">Administrator</p> -->
+                    <a href="http://localhost/sign in-sign up-home-privacy policy/signin/login.php" class="sign-in">sign in</a>
+                    <a href="http://localhost/sign in-sign up-home-privacy policy/signup/signup.php" class="sign-up">sign up</a>
+                </div>
+            </div>
+        </header>
+    </div>
+        
+        <p class="head-topic">Insurance Plans</p>
+
+        
+        <button class="btn1" onclick="changeBackgroundColor();showPlanDetails('Emergency Plan');goToPage('emergency index.html');">
+            <div class="d-btn1">
+            <p class="plan">Emergency Coverage</p> 
+            
+            <p class="des">Emergency Coverage in our insurance plans provides you financial protection for unexpected, urgent medical situations. It covers expences related to emergency room visits,ambulance services and urgent care.</p>
+            </div>
+            <img class="img1" src="images/emegency-img.png">
+        </button>
+         
+
+        <button class="btn2" onclick="showPlanDetails('Complete Coverage');goToPage('');">
+             <img class="img1" src="images/comp-img.png">
+             <div class="d-btn2">
+            <p class="plan">Complete Coverage</p> 
+            <p class="des">A Complete Coverage Healthcare Insurance Plan typically includes a broad range of medical services includong hospitalization coverage,Emergency coverage,dental and vision,mental health and substance abuse etc..</p>
+        </div>
+        </button>
+
+        
+        <button class="btn3" onclick="showPlanDetails('Family Plan');goToPage('../familyplan-inquiry/plan.html');">
+            <div class="d-btn1" >
+            <p class="plan">Family Plan</p> 
+            <p class="des">A Family Healthcare Insurance Plan provides coverage for an entire family under a single policy. It covers expences related to hospitalization,outpatient services,preventive care and maternity care. </p>
+            </div>
+
+            <img class="img1" src="images/family-img.png">
+        </button>
+
+        
+            <button class="btn4" onclick="showPlanDetails('Adult Plan');goToPage('adult_plan.html');">
+            <img class="img1" src="images/adult-img.png">
+            <div class="d-btn2">
+            <p class="plan">Adult Plan</p> 
+            <p class="des">An Adult Healthcare Insurance Plan provides coverage for their adult years. It typically includes  hospitalization, outpatient services, prescription medications, preventive care, and chronic disease management. </p>
+            </div>
+        </button>
+
+        <footer>
+            <div class="footer-container">
+                <div class="site-details">
+                    <div class="description">
+                        <p><b>LifeCare</b></p>
+                        <p style="font-size: 14px;">Empowering Care , Simplifying Coverage</p>
+                    </div>
+                    <div class="plans-company">
+                        <div>
+                            <p><b>Plans</b></p>
+                            <ul>
+                                <li><a href="">Adult plan</a></li>
+                                <li><a href="">Emergency plan</a></li>
+                                <li><a href="">Complete plan</a></li>
+                                <li><a href="">Family plan</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p><b>Company</b></p>
+                            <ul>
+                                <li><a href="">Privacy policy</a></li>
+                                <li><a href="">Contact us</a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Terms and conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <p><b>Social</b></p>
+                        <div>
+                            <a href=""><img src="images/facebook.png" alt="facebook"></a>
+                            
+                            <a href=""><img src="images/linkedin.png" alt="linked in"></a>
+                            <a href=""><img src="images/instagram.png" alt="instergram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="rights">
+                    <p>LifeCare 2024 © All rights resserved</p>
+                </div>
+            </div>
+        </footer>
+    
+        <script src="all_plans.js"></script>
+    </body>
+</html>

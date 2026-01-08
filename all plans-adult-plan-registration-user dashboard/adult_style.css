@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0;
+    background-color:rgb(247, 251, 254)
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins';
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header-container{
+    color: rgb(98, 96, 96);
+    background-color: #E2EAF4;
+}
+
+header{
+    display: flex;
+    max-width: 1100px; 
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    height: 100px;
+    font-family: 'poppins';
+    font-size: 12px;
+    margin-left: 50px;
+    
+}
+
+.logo{
+    max-height: 70px;
+    max-width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+    border-radius: 30px;
+    font-weight: bold;
+    color: rgb(98, 96, 96);
+}
+
+.navbar a:hover{
+    background-color: black;
+    color: white;
+}
+
+.profile{
+    align-items: center;
+    gap: 15px;
+}
+
+.admin-dp{
+    max-height: 40px;
+    border-radius: 50%;
+    object-fit: cover;    
+}
+
+.profile div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;    
+    height: 50px;
+    font-size: 11px;
+}
+
+.sign-out{
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+}
+
+.sign-out:hover{
+    text-decoration: underline;
+}
+
+.new-adult-img{
+    width:100%;
+    height: 500px;
+    object-position: top;
+    display: inline-block;
+    padding-top: 0%;
+    margin-left: 2px;
+}
+
+.header{
+    font-family: Arial;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(63, 81, 181);
+
+}
+
+.para1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+    display:inline-block;
+    
+
+}
+
+.box1{
+    background-color: rgb(165, 160, 160);
+    width: 650px;
+    display:inline-block;
+    margin-bottom: 20px;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.box2{
+    display: flex;
+    width:100%;
+    height: 750px;
+    background-color: rgb(179, 224, 250);
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+    justify-content: flex-start;
+}
+
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 50px;
+    
+    display:inline-block;
+}
+
+.b{
+    font-size: 25px;
+    font-weight: bold;
+    color:black;
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sub-para{
+    font-size: 16px;
+    text-align: center;
+    color: gray;
+    width:170px;
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.benefit{
+    
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 2%;
+    margin-bottom: 10px;
+    vertical-align: top;
+   
+}
+
+.adult-image{
+    height: 450px;
+    width: 750px;
+    margin-left: 70px;
+    
+    
+}
+
+.box3{
+    width: 400px;
+    height:300px;
+    margin:150px 90px 0px 150px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    color: rgb(92, 88, 88);
+    justify-content: center;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    display: block;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: Arial;
+    line-height: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+    width:200px;
+    height:50px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+    background-color:  rgb(45, 178, 250);
+    border-radius: 25px;
+    border-width: 0;
+    border-style: solid;
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+    cursor:pointer; 
+    display:inline-block;  
+    
+}
+
+.btn:hover{
+    background-color: rgb(63, 81, 181);
+    color:white;
+}
+
+.sub-box{
+    width:300px;
+    background-color: white;
+    height: 200px;
+    margin-left: 65px;
+    margin-top: 20px;
+    border-radius: 25px;
+    place-items: center; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.cartoon-img{
+    height: 150px;
+    width: 150px;
+    margin-left: 350px;
+    display: inline-block;
+}
+
+.img-container{
+
+    position: relative;
+}
+.img-container img{
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-container-text{
+    position: absolute;
+    top:50% ;
+    color: #E2EAF4;
+    padding: 10px;
+    font-size: 120px;
+    
+}
+@keyframes slideUp {
+    0% { opacity: 0; transform: translateY(100px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.img-container-text {
+    animation: slideUp 2s ease-in-out;
+}
+
+#next{
+    margin-left: 95%;
+}
+
+footer{
+    width: 100%;
+    background-color: #90CAF9;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.footer-container{
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    gap: 30px;
+}
+.site-details{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    min-height: 80%;
+}
+.descrption{
+    min-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.plans-company{
+    display: flex;
+    min-width: 30%;
+    gap: 25px;
+}
+.plans-company div{
+    display: flex;
+    flex-direction: column;
+}
+.plans-company li{
+    list-style-type: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.plans-company li a{
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.plans-company li a:hover{
+    color: rgb(0, 0, 0);
+}
+.plans-company ul{
+    align-items: left;
+    margin: 0px;
+    padding: 0px;
+}
+.social{
+    min-width: 30%;
+}
+.social div{
+    display: flex;
+    flex: 1 1 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.social a{
+    text-decoration: none;
+}
+.rights{
+    min-height: 20%;
+    position: relative;
+    margin-top: 30px;
+}
+.rights p{
+    font-size: 12px;
+    font-weight:bold;
+}
+
+
