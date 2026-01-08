@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/plan.css">
+        <title>lifecare Insurance</title>
+        <script src="plan.js"></script>
+    </head>
+
+    <body>
+        <div class="header-container">
+            <header>
+                <img src="images/img6.jfif" alt="site logo" class="logo">
+                <ul class="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about index.html">About us</a></li>
+                    <li><a href="all_plans.html">Plans</a></li>
+                    <li><a href="home.html">Contact us</a></li>
+                </ul>
+                <div class="profile" style="display: flex; justify-content: center; flex-wrap: no-wrap">
+                    <img src="images/admin.png" alt="admin dp" class="admin-dp">
+                    <div>
+                        <p style="margin: 0;">Hey, phpname</p>
+                        <!--<p style="margin: 0;">Administrator</p> -->
+                        <a href="sign out" class="sign-out">sign out</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+
+    <div class="fam-container ">
+        <img src="images/id2.jpeg" alt="family" width="1520px" height="500px ">
+        <div class="fam-container-text">Family Plan</div>
+        </div>
+   
+    
+    
+        <div class="fam-box">
+            <h1>Health insurance plan for family </h1><br>
+            <p>Health insurance plans designed for families provide comprehensive coverage that caters to the healthcare needs of all family members.It covers to you,your 
+               spouse,children,parents,parents-in-law and other family members under a single policy.Family health insurance plans typically offer a shared sum insured,
+               where the total coverage is availabilty to all family memebers.A family health insurance plans ensures the financial security of your family so that you can afford
+               the best medical care today with the cashless everywhere facilty and quick claim settlement.
+            </p>
+
+       </div>
+
+       <img class="cartoon-img" src="images/re2.jfif">
+       <button class="btn" onclick="registration()">
+        Register Now!
+    </button>
+
+    <div class="benifit-box">
+    <h1>Exclusive Benfits of Lifecare</h1><br>
+    </div>
+
+    <div class="fam-box3">
+        <img src="images/co.png" width="80px" heaight="80px">
+        <p>Contract Surgeries</p>
+    </div>
+
+    <div class="fam-box4">
+        <img src="images/wo.png" width="80px" heaight="80px"><br>
+        <p>Extended to cover overseas treatment</p>
+    </div>
+
+    <div class="fam-box5">
+        <img src="images/do.png" width="70px" heaight="70px"><br><br>
+        <p>Daily hospital cash for hospitalization</p>
+    </div>
+
+    <div class="fam-box6">
+        <img src="images/em.png" width="80px" heaight="80px"><br>
+        <p>Emergency travelling expenses</p>
+    </div>
+
+    <div class="fam-box1">
+        <h1>Benifits of buying health insurance plans for family</h1><br>
+        <p>
+            <ul>
+            <li>Get health insurance cover for parents in the same plan</li>
+            <li>Affordable premium</li>
+            <li>Inssure new family members easily</li>
+            <li>Peace of mind</li>
+            <li>Streamlind administration</li>
+            <li>Customizable coverage</li>
+            <li>Financial protection</li>
+        </ul>
+        </p>
+    </div>
+   
+    <div class="cont">
+    <img class="img-content" src="images/fa6.jpeg" >
+    <div class="pay-box">
+
+        <p>"Making better lifecare easy"</p>
+        <p>Rs.30000.00 per month</p>
+    </div>
+</div>
+
+
+       <footer>
+        <div class="footer-container">
+            <div class="site-details">
+                <div class="description">
+                    <p><b>LifeCare</b></p>
+                    <p style="font-size: 14px;">dvfvf fbgfnh gnhm bgfdbfdbfb dvfvf fbgfnh gnhm bgfdbfdbfb dvfvf fbgfnh bgfdbfdbfb</p>
+                </div>
+                <div class="plans-company">
+                    <div>
+                        <p><b>Plans</b></p>
+                        <ul>
+                            <li><a href="">Adult plan</a></li>
+                            <li><a href="">Emergency plan</a></li>
+                            <li><a href="">Complete plan</a></li>
+                            <li><a href="">Family plan</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p><b>Company</b></p>
+                        <ul>
+                            <li><a href="">Privacy policy</a></li>
+                            <li><a href="">Contact us</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Terms and conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="social">
+                    <p><b>Social</b></p>
+                    <div>
+                        <a href=""><img src="" alt="facebook"></a>
+                        <a href=""><img src="" alt="X"></a>
+                        <a href=""><img src="" alt="linked in"></a>
+                        <a href=""><img src="" alt="whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="rights">
+                <p>LifeCare 2024 © All rights resserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    </body>
+</html>

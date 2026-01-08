@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="styles/page1.css">
+        <title>lifecare Insurance</title>
+        <script src="page1.js"></script>
+    </head>
+
+    <body>
+        <div class="header-container">
+            <header>
+                <img src="images/img6.jfif" alt="site logo" class="logo">
+                <ul class="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about index.html">About us</a></li>
+                    <li><a href="all_plans.html">Plans</a></li>
+                    <li><a href="home.html">Contact us</a></li>
+                </ul>
+                <div class="profile" style="display: flex; justify-content: center; flex-wrap: no-wrap">
+                    <img src="images/admin.png" alt="admin dp" class="admin-dp">
+                    <div>
+                        <p style="margin: 0;">Hey, phpname</p>
+                        <!--<p style="margin: 0;">Administrator</p> -->
+                        <a href="sign out" class="sign-out">sign out</a>
+                    </div>
+                </div>
+            </header>
+        </div>
+    <br><br>
+        
+
+
+
+<div class="container">
+    <div class="contact-us-section">
+
+       <div class="form-container">
+        <h1>Update Inquiry</h1>
+        <div id="error_message"></div>
+
+            <form id="myform" method="post" action="cnewupdate.php?updateid=<?php $id = $_GET['updateid'];echo "$id" ?>">
+                Inquiry Id:
+                <input type="text" name="cid" placeholder="inquiry id" disabled> <br><br>
+                User Name:
+                <input type="text" name="cname" placeholder="User Name" required> <br><br>
+                E-mail:<br>
+                <input type="email" name="cemail" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  id="email"><br><br>
+                Meesage:<br>
+                <textarea id="message" name="cmessage" placeholder="Your massage here" id="message"></textarea><br><br>
+                <button type="submit">Update</button>
+                
+            </form>
+       </div>
+       </div>
+</div>
+
+<footer>
+            <div class="footer-container">
+                <div class="site-details">
+                    <div class="description">
+                        <p><b>LifeCare</b></p>
+                        <p style="font-size: 14px;">Empowering Care , Simplifying Coverage</p>
+                    </div>
+                    <div class="plans-company">
+                        <div>
+                            <p><b>Plans</b></p>
+                            <ul>
+                                <li><a href="">Adult plan</a></li>
+                                <li><a href="">Emergency plan</a></li>
+                                <li><a href="">Complete plan</a></li>
+                                <li><a href="">Family plan</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p><b>Company</b></p>
+                            <ul>
+                                <li><a href="">Privacy policy</a></li>
+                                <li><a href="">Contact us</a></li>
+                                <li><a href="">About us</a></li>
+                                <li><a href="">Terms and conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <p><b>Social</b></p>
+                        <div>
+                            <a href=""><img src="images/facebook.png" alt="facebook"></a>
+                            <a href=""><img src="images/linkedin.png" alt="linked in"></a>
+                            <a href=""><img src="images/instagram.png" alt="instergram"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="rights">
+                    <p>LifeCare 2024 © All rights resserved</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
